@@ -1,0 +1,5 @@
+[user]
+	email = james@jameshales.org
+	name = James Hales
+[push]
+	default = simple
