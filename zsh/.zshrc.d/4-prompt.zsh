@@ -21,6 +21,10 @@ prompt_fade_setup () {
           local background='cyan'
           local foreground='white'
       ;;
+      "newpie")
+          local background='magenta'
+          local foreground='white'
+      ;;
       *)
           local background='white'
           local foreground='black'
