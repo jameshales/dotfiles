@@ -158,9 +158,9 @@ let g:html_number_lines = 0
 let g:html_ignore_folding = 1
 
 " Indenting rules {{{1
-set softtabstop=4
-set tabstop=4
-set shiftwidth=4
+set softtabstop=2
+set tabstop=2
+set shiftwidth=2
 set expandtab
 
 " Long line highlighting {{{1
