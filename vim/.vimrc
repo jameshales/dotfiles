@@ -1,3 +1,6 @@
+" Enable Pathogen {{{1
+execute pathogen#infect()
+
 " Get out of Vi compatible mode {{{1
 set nocompatible
 
