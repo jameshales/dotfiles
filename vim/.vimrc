@@ -1,4 +1,5 @@
 " Enable Pathogen {{{1
+let mapleader=","                  " Set <Leader> (mostly for NERD_commenter)
 execute pathogen#infect()
 
 " Get out of Vi compatible mode {{{1
@@ -197,5 +198,3 @@ au! Syntax ats source ~/.vim/syntax/ats.vim
 au! BufRead,BufNewFile *.dats set filetype=ats
 au! BufRead,BufNewFile *.sats set filetype=ats
 
-" NERDCommenter option {{{1
-let g:NERDShutUp=1
