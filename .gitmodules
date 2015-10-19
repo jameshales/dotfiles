@@ -4,3 +4,6 @@
 [submodule "vim/.vim/bundle/nerdcommenter"]
 	path = vim/.vim/bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "vim/.vim/bundle/rust.vim"]
+	path = vim/.vim/bundle/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git
