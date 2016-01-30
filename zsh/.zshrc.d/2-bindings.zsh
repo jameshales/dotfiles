@@ -2,8 +2,14 @@ unsetopt beep   # Disable beep
 bindkey -e      # Emacs keybindings
 
 # Ctrl-Left/Right key bindings
+bindkey ";5C" forward-word
+bindkey ";5D" backward-word
 bindkey "5C" forward-word
 bindkey "5D" backward-word
+bindkey "\e[H" beginning-of-line
+bindkey "\e[F" end-of-line
+bindkey "\e[1~" beginning-of-line
+bindkey "\e[4~" end-of-line
 
 # Fix home/end/pgup/pgdn/del key behaviour
 [[ -z "$terminfo[kdch1]" ]] || bindkey -M emacs "$terminfo[kdch1]" delete-char
