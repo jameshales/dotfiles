@@ -32,6 +32,8 @@ set statusline=%<%f\ %y%h%m%r%=%-14.(%l,%c%V%)\ %P
 set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,
             \.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc,.class,.ctxt
 set textwidth=0                 " Do not hard-wrap by default
+set timeoutlen=1000
+set ttimeoutlen=0               " No delay after pressing escape
 set visualbell t_vb=            " Turn off bell
 set whichwrap=b,s,~,[,],<,>     " Arrow keys wrap around newlines
 set wildmenu                    " Enhanced auto-completion for Ex mode commands
@@ -39,7 +41,6 @@ set wildmenu                    " Enhanced auto-completion for Ex mode commands
 " New line mappings {{{1
 map <S-Enter> O<Esc>
 map <CR> o<Esc>
- 
 
 " Up/down key behaviour {{{1
 " -- Changes up/down arrow keys to behave screen-wise, rather than file-wise.
@@ -197,4 +198,3 @@ au! BufRead,BufNewFile *.haml         setfiletype sass
 au! Syntax ats source ~/.vim/syntax/ats.vim
 au! BufRead,BufNewFile *.dats set filetype=ats
 au! BufRead,BufNewFile *.sats set filetype=ats
-
