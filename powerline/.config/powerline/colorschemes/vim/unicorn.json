@@ -1,0 +1,44 @@
+{
+	"name": "Unicorn",
+	"groups": {
+		"information:unimportant":  { "fg": "black", "bg": "unicorn:green", "attrs": [] },
+		"information:additional":   { "fg": "black", "bg": "unicorn:purple", "attrs": [] },
+		"background":               { "fg": "white", "bg": "gray2", "attrs": [] },
+		"background:divider":       { "fg": "gray2", "bg": "unicorn:green", "attrs": [] },
+		"mode":                     { "fg": "black", "bg": "unicorn:pink", "attrs": [] },
+		"visual_range":             { "fg": "black", "bg": "unicorn:purple", "attrs": ["bold"] },
+		"modified_indicator":       { "fg": "black", "bg": "unicorn:purple", "attrs": ["bold"] },
+		"paste_indicator":          { "fg": "white", "bg": "mediumorange", "attrs": ["bold"] },
+		"readonly_indicator":       { "fg": "brightestred", "bg": "gray4", "attrs": [] },
+		"branch_dirty":             { "fg": "brightyellow", "bg": "gray4", "attrs": [] },
+		"branch:divider":           { "fg": "gray7", "bg": "gray4", "attrs": [] },
+		"file_name":                { "fg": "white", "bg": "gray4", "attrs": ["bold"] },
+		"window_title":             { "fg": "white", "bg": "gray4", "attrs": [] },
+		"file_name_no_file":        { "fg": "gray9", "bg": "gray4", "attrs": ["bold"] },
+		"file_vcs_status":          { "fg": "brightestred", "bg": "gray4", "attrs": [] },
+		"file_vcs_status_M":        { "fg": "brightyellow", "bg": "gray4", "attrs": [] },
+		"file_vcs_status_A":        { "fg": "brightgreen", "bg": "gray4", "attrs": [] },
+		"line_percent":             { "fg": "black", "bg": "unicorn:yellow", "attrs": [] },
+		"line_percent_gradient":    { "fg": "black", "bg": "unicorn:yellow", "attrs": [] },
+		"position":                 { "fg": "gray9", "bg": "unicorn:yellow", "attrs": [] },
+		"position_gradient":        { "fg": "green_yellow_red", "bg": "unicorn:yellow", "attrs": [] },
+		"line_current":             { "fg": "black", "bg": "unicorn:purple", "attrs": ["bold"] },
+		"line_current_symbol":      { "fg": "black", "bg": "unicorn:orange", "attrs": [] },
+		"virtcol_current_gradient": { "fg": "black", "bg": "unicorn:blue", "attrs": [] },
+		"col_current":              { "fg": "black", "bg": "unicorn:blue", "attrs": [] },
+		"modified_buffers":         { "fg": "brightyellow", "bg": "gray2", "attrs": [] },
+		"attached_clients":         { "fg": "gray8", "bg": "gray2", "attrs": [] },
+		"error":                    { "fg": "brightestred", "bg": "black", "attrs": ["bold"] },
+		"warning":                  { "fg": "brightyellow", "bg": "black", "attrs": ["bold"] },
+		"current_tag":              { "fg": "gray9", "bg": "gray2", "attrs": [] },
+
+		"tab_nc:modified_indicator": { "fg": "brightyellow", "bg": "gray2", "attrs": ["bold"] }
+	},
+  "mode_translations": {
+    "v": {
+      "groups": {
+        "modified_indicator": { "fg": "black", "bg": "unicorn:blue", "attrs": [] }
+      }
+    }
+  }
+}

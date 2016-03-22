@@ -1,0 +1,14 @@
+{
+	"groups": {
+		"active_window_status": {"fg": "unicorn:pink",       "bg": "gray0",    "attrs": []},
+		"window_status":        {"fg": "unicorn:pink",     "bg": "gray0",    "attrs": []},
+		"activity_status":      {"fg": "unicorn:pink",     "bg": "gray0",    "attrs": []},
+		"bell_status":          {"fg": "unicorn:pink",        "bg": "gray0",    "attrs": []},
+		"window":               {"fg": "unicorn:pink",      "bg": "gray0",    "attrs": []},
+		"window:divider":       {"fg": "unicorn:pink",      "bg": "gray0",    "attrs": []},
+		"window:current":       {"fg": "black",      "bg": "unicorn:pink",     "attrs": []},
+		"window_name":          {"fg": "black",      "bg": "unicorn:pink",     "attrs": []},
+		"session":              {"fg": "black",      "bg": "unicorn:purple",     "attrs": []},
+		"session:prefix":       {"fg": "black",      "bg": "unicorn:purple",     "attrs": []}
+	}
+}

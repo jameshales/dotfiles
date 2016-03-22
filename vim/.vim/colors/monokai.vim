@@ -20,7 +20,7 @@ hi DiffAdd guifg=bg guibg=#A6E22E ctermbg=148
 hi DiffChange guifg=bg guibg=#E6DB74 ctermbg=186 
 hi DiffDelete guifg=bg guibg=#F92672 ctermbg=197 
 hi DiffText guifg=bg guibg=#E6DB74 ctermbg=186 
-hi ErrorMsg guifg=#F92672 ctermfg=197 guibg=bg gui=none cterm=none 
+hi ErrorMsg guifg=#F92672 ctermfg=197 ctermbg=bg guibg=bg gui=none cterm=none 
 hi VertSplit guifg=#3B3A32 ctermfg=237 guibg=bg gui=none cterm=none 
 hi Folded guifg=#75715E ctermfg=242 guibg=bg gui=none cterm=none 
 hi FoldColumn guifg=#75715E ctermfg=242 guibg=#3E3D32 ctermbg=237 gui=none cterm=none 
