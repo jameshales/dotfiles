@@ -198,3 +198,9 @@ au! BufRead,BufNewFile *.haml         setfiletype sass
 au! Syntax ats source ~/.vim/syntax/ats.vim
 au! BufRead,BufNewFile *.dats set filetype=ats
 au! BufRead,BufNewFile *.sats set filetype=ats
+
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
