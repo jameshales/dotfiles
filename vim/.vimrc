@@ -162,6 +162,7 @@ let g:use_xhtml = 1
 let g:html_number_lines = 0
 let g:html_ignore_folding = 1
 
+
 " Indenting rules {{{1
 set softtabstop=2
 set tabstop=2
@@ -199,8 +200,19 @@ au! Syntax ats source ~/.vim/syntax/ats.vim
 au! BufRead,BufNewFile *.dats set filetype=ats
 au! BufRead,BufNewFile *.sats set filetype=ats
 
+" EasyAlign {{{1
 " Start interactive EasyAlign in visual mode (e.g. vipga)
 xmap ga <Plug>(EasyAlign)
 
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
+
+" Sytnastic {{{1
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
