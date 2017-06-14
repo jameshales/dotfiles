@@ -117,9 +117,6 @@ if has("autocmd")
     filetype plugin on
     filetype indent on
 
-    " Automatically change directory to the location of the current file
-    autocmd BufWinEnter * :lcd %:p:h
-
     " Keeps the cursor in the previous position when switching buffers
     augroup vimrcEx
         au!
