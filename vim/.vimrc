@@ -214,3 +214,6 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 autocmd FileType rust let g:syntastic_rust_checkers = ['rustc']
+
+" Ctrl-P {{{1
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
