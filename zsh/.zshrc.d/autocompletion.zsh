@@ -1,4 +1,4 @@
-# Set up completion system 
+# Autocompletion
 zstyle :compinstall filename ~/.zshrc
 autoload -Uz compinit
 compinit

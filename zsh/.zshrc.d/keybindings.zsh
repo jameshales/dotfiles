@@ -1,3 +1,4 @@
+# Keybindings
 unsetopt beep   # Disable beep
 bindkey -e      # Emacs keybindings
 
